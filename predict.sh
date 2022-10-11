@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python scripts/img2img.py \
+python scripts/txt2img.py \
     --seed 1 \
     --prompt "$2" \
     --outdir 'outputs/generated_gundam' \
